@@ -59,11 +59,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="quantity">Quantity</label>
-                                <input type="text" class="form-control" name="quantity" id="quantity" v-model="newItem.quantity" :value="newItem.quantity" @change="updateQuantity">
+                                <input type="text" class="form-control" name="quantity" id="quantity" v-model="newItem.quantity"  @change="updateQuantity">
                             </div>
                             <div class="form-group">
                                 <label for="price">Price</label>
-                                <input type="text" class="form-control" name="price" id="price" v-model="newItem.price" :value="newItem.price" @change="updatePrice">
+                                <input type="text" class="form-control" name="price" id="price" v-model="newItem.price" @change="updatePrice">
                             </div>
                             <div class="form-group">
                                 <label for="total">Total</label>
